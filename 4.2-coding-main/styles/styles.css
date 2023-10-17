@@ -1,7 +1,15 @@
 .red{
     color: red;
 }
+/* Selectors used to effect all LIs of ordered lists only */
 ol li{
     color: green;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+table, table tr td, table tr th{
+    border:1px black
+    solid;
+    border-spacing: 0px;
+    border-collapse: collapse;
 }
